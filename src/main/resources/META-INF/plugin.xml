@@ -9,10 +9,6 @@
     <resource-bundle>messages.MyBundle</resource-bundle>
 
     <extensions defaultExtensionNs="com.intellij">
-        <toolWindow factoryClass="com.github.mauriciord.shadesofpurpleintellij.toolWindow.MyToolWindowFactory" id="MyToolWindow"/>
+        <themeProvider id="com.github.mauriciord.shadesofpurpleintellij" path="/theme/shadesofpurpleintellij.theme.json" />
     </extensions>
-
-    <applicationListeners>
-        <listener class="com.github.mauriciord.shadesofpurpleintellij.listeners.MyFrameStateListener" topic="com.intellij.ide.FrameStateListener"/>
-    </applicationListeners>
 </idea-plugin>
