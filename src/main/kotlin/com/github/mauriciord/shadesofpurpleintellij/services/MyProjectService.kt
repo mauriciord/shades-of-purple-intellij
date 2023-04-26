@@ -1,9 +1,9 @@
-package org.jetbrains.plugins.template.services
+package com.github.mauriciord.shadesofpurpleintellij.services
 
 import com.intellij.openapi.components.Service
 import com.intellij.openapi.diagnostic.thisLogger
 import com.intellij.openapi.project.Project
-import org.jetbrains.plugins.template.MyBundle
+import com.github.mauriciord.shadesofpurpleintellij.MyBundle
 
 @Service(Service.Level.PROJECT)
 class MyProjectService(project: Project) {
